@@ -1,0 +1,22 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.calculator {
+  padding: 1.5rem;
+  background-color: azure;
+
+  border-radius: 5px;
+}
+
+.control-container {
+  margin: 10px 0;
+}
+
+.control {
+  margin: 0 10px;
+}
