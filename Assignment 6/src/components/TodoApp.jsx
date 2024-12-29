@@ -12,7 +12,7 @@ function TodoApp() {
             return null
         }
         return <li className="block" key={i}><TodoItem item={todo} todoList={todoList} setList={setList} /></li>
-    })
+    }).sort();
   
     return (
         <div id='todo-app' className="box">
